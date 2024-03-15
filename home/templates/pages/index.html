@@ -156,12 +156,12 @@
     </div>
     <div class="tab-content tab-space">
       <div class="tab-pane active" id="preview-features-1">
-        <iframe width="100%" height="600px" srcdoc='<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <iframe width="100%" height="500px" srcdoc='<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
           <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
           <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
           <!-- Material Icons -->
           <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
-          <link id="pagestyle" href="https://demos.creative-tim.com/material-kit/assets/css/material-kit.min.css?v=3.0.4" rel="stylesheet" />
+          <link id="pagestyle" href="{% static 'css/material-kit.css' %}" rel="stylesheet" />
           <!-- -------- START Features w/ icons and text on left & gradient title and text on right -------- -->
 <div class="container">
   <div class="row">
@@ -226,12 +226,12 @@
     </div>
     <div class="tab-content tab-space">
       <div class="tab-pane active" id="preview-features-1">
-        <iframe width="100%" height="600px" srcdoc='<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <iframe width="100%" height="500px" srcdoc='<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
           <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
           <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
           <!-- Material Icons -->
           <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
-          <link id="pagestyle" href="https://demos.creative-tim.com/material-kit/assets/css/material-kit.min.css?v=3.0.4" rel="stylesheet" />
+          <link id="pagestyle" href="{% static 'css/material-kit.css' %}" rel="stylesheet" />
           <!-- -------- START Features w/ icons and text on left & gradient title and text on right -------- -->
 <div class="container">
   <div class="row">
@@ -295,12 +295,12 @@
     </div>
     <div class="tab-content tab-space">
       <div class="tab-pane active" id="preview-features-1">
-        <iframe width="100%" height="600px" srcdoc='<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <iframe width="100%" height="500px" srcdoc='<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
           <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
           <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
           <!-- Material Icons -->
           <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
-          <link id="pagestyle" href="https://demos.creative-tim.com/material-kit/assets/css/material-kit.min.css?v=3.0.4" rel="stylesheet" />
+          <link id="pagestyle" href="{% static 'css/material-kit.css' %}" rel="stylesheet" />
           <!-- -------- START Features w/ icons and text on left & gradient title and text on right -------- -->
 <div class="container">
   <div class="row">
@@ -359,16 +359,16 @@
 
   <!-- -------- START Content Presentation Docs ------- -->
 <div class="container mt-sm-5">
-  <div class="page-header py-6 py-md-5 my-sm-3 mb-3 border-radius-xl" style="background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/desktop.jpg');" loading="lazy">
+  <div class="page-header py-6 py-md-5 my-sm-3 mb-3 border-radius-xl" style="background-image: url('{% static 'img/economic_shawarma_bg.jpg' %}');" loading="lazy">
     <span class="mask bg-gradient-dark"></span>
     <div class="container">
       <div class="row">
         <div class="col-lg-6 ms-lg-5">
-          <h4 class="text-white">Built by developers</h4>
-          <h1 class="text-white">Complex Documentation</h1>
-          <p class="lead text-white opacity-8">From colors, cards, typography to complex elements, you will find the full documentation. Play with the utility classes and you will create unlimited combinations for our components.</p>
-          <a href="https://www.creative-tim.com/learning-lab/bootstrap/overview/material-kit" class="text-white icon-move-right">
-            Read docs
+          <h4 class="text-white">Home project</h4>
+          <h1 class="text-white">Shawarma Calculator</h1>
+          <p class="lead text-white opacity-8">My home project is a sayat on Flask, which gets kusr dram to ruble, fixes the price of shawarma in St. Petersburg and Yerevan, then recalculates how much shawarma can be bought for rubles, and how much for drams. [Skills: Python, Flask]</p>
+          <a href="https://blog.ruslanakmanov.link/2023-05-10-Shawarma-Currency/" class="text-white icon-move-right">
+            More details on my blog
             <i class="fas fa-arrow-right text-sm ms-1"></i>
           </a>
         </div>
@@ -378,16 +378,16 @@
 </div>
 
 <div class="container mt-sm-5">
-  <div class="page-header py-6 py-md-5 my-sm-3 mb-3 border-radius-xl" style="background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/desktop.jpg');" loading="lazy">
+  <div class="page-header py-6 py-md-5 my-sm-3 mb-3 border-radius-xl" style="background-image: url('{% static 'img/warehouse_data_monitoring_bg.jpg' %}');" loading="lazy">
     <span class="mask bg-gradient-dark"></span>
     <div class="container">
       <div class="row">
         <div class="col-lg-6 ms-lg-5">
-          <h4 class="text-white">Built by developers</h4>
-          <h1 class="text-white">Complex Documentation</h1>
-          <p class="lead text-white opacity-8">From colors, cards, typography to complex elements, you will find the full documentation. Play with the utility classes and you will create unlimited combinations for our components.</p>
-          <a href="https://www.creative-tim.com/learning-lab/bootstrap/overview/material-kit" class="text-white icon-move-right">
-            Read docs
+          <h4 class="text-white">Independent work project</h4>
+          <h1 class="text-white">Data monitoring with Grafana</h1>
+          <p class="lead text-white opacity-8">To obtain and display server monitoring data, a tool was written that collects data from reports using python and bash, places it in MySQL and then transfers it to Grafana for plotting graphs and setting up notifications. [Skills: Python, Grafana, MySQL]</p>
+          <a href="https://blog.ruslanakmanov.link/2024-02-19-Another-report-parser/" class="text-white icon-move-right">
+            More details on my blog
             <i class="fas fa-arrow-right text-sm ms-1"></i>
           </a>
         </div>
@@ -397,16 +397,54 @@
 </div>
 
 <div class="container mt-sm-5">
-  <div class="page-header py-6 py-md-5 my-sm-3 mb-3 border-radius-xl" style="background-image: url('https://raw.githubusercontent.com/creativetimofficial/public-assets/master/soft-ui-design-system/assets/img/desktop.jpg');" loading="lazy">
+  <div class="page-header py-6 py-md-5 my-sm-3 mb-3 border-radius-xl" style="background-image: url('{% static 'img/cut_server_logs_bg.jpg' %}');" loading="lazy">
     <span class="mask bg-gradient-dark"></span>
     <div class="container">
       <div class="row">
         <div class="col-lg-6 ms-lg-5">
-          <h4 class="text-white">Built by developers</h4>
-          <h1 class="text-white">Complex Documentation</h1>
-          <p class="lead text-white opacity-8">From colors, cards, typography to complex elements, you will find the full documentation. Play with the utility classes and you will create unlimited combinations for our components.</p>
-          <a href="https://www.creative-tim.com/learning-lab/bootstrap/overview/material-kit" class="text-white icon-move-right">
-            Read docs
+          <h4 class="text-white">Independent work project</h4>
+          <h1 class="text-white">Cut logs</h1>
+          <p class="lead text-white opacity-8">The program quickly cuts fragments of the necessary logs based on the date and time of the error, archives them and prepares them for attachment to the bug text. [Skills: Python, Bash, grep, regex]</p>
+          <a href="https://blog.ruslanakmanov.link/2023-04-05-Solvo-WMS-cutlogs/" class="text-white icon-move-right">
+            More details on my blog
+            <i class="fas fa-arrow-right text-sm ms-1"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-sm-5">
+  <div class="page-header py-6 py-md-5 my-sm-3 mb-3 border-radius-xl" style="background-image: url('{% static 'img/cyberpunk_bg.jpg' %}');" loading="lazy">
+    <span class="mask bg-gradient-dark"></span>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 ms-lg-5">
+          <h4 class="text-white">Home project</h4>
+          <h1 class="text-white">Cyberpunk quote bot</h1>
+          <p class="lead text-white opacity-8">A Telegram bot that, upon request, produces a pseudo random quote from bookreaders or a random image with a Creative Common license under the cyberpunk tag. [Skills: Python, Telethon, Linux]</p>
+          <a href="https://blog.ruslanakmanov.link/2023-04-02-Quote-bot-idea/" class="text-white icon-move-right">
+            More details on my blog
+            <i class="fas fa-arrow-right text-sm ms-1"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container mt-sm-5">
+  <div class="page-header py-6 py-md-5 my-sm-3 mb-3 border-radius-xl" style="background-image: url('{% static 'img/ai_bg.jpg' %}');" loading="lazy">
+    <span class="mask bg-gradient-dark"></span>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 ms-lg-5">
+          <h4 class="text-white">Home project</h4>
+          <h1 class="text-white">AI personal assistent</h1>
+          <p class="lead text-white opacity-8">The project that allowed me to dive into LLM, an AI-based assistant running on a local host, accessing whisper for text to speech and vice versa [Skills: AI, Llama, Python, LLM, Whisper, STT, TTS]</p>
+          <a href="https://blog.ruslanakmanov.link/2023-04-02-Quote-bot-idea/" class="text-white icon-move-right">
+            More details on my blog
             <i class="fas fa-arrow-right text-sm ms-1"></i>
           </a>
         </div>
