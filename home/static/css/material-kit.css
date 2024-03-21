@@ -685,7 +685,6 @@ progress {
   padding-left: calc(var(--bs-gutter-x) * 1);
   margin-right: auto;
   margin-left: auto;
-  margin-top: 50px;
 }
 
 @media (min-width: 576px) {
@@ -723,7 +722,6 @@ progress {
   .container-lg,
   .container-xl {
     max-width: 1140px;
-    margin-top: 50px;
   }
 }
 
