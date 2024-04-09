@@ -10103,6 +10103,9 @@ fieldset:disabled .btn {
 .py-7 {
   padding-top: 6rem !important;
   padding-bottom: 6rem !important;
+  width: 70%;
+  display: block;
+  margin: auto;
 }
 
 .py-8 {
